@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+header > h1 {
+    margin: 0px;
+    font-variant: small-caps;
+    font-size: 3em;
+}
+header > p {
+    margin: 0px;
+    font-size: 1.5em;
+}
+a {
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    padding: 3px;
+}
+section {
+    padding: 20px;
+    line-height: 3.5em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+section > p{
+    width: 400px;
+    padding-left: 10px;
+    font-size: 2em;
+}
+.normal {
+    background-color: white;
+    color: black;
+}
+.normal > p{
+    padding-bottom: 2em;
+}
+.imagem {
+    background-color: rgb(206, 206, 206);
+    box-shadow: inset 1px -4px 20px 0px #000000a0;
+}
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.458);
+    border-radius: 3px;
+    color: white;
+    padding-left: 15px;
+}
+#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#img2 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+footer > p{
+    margin: 0px;
+    text-align: center;
+}
